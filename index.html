@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gabriel Bercelline</title>
+  <link rel="shortcut icon" href="assets/img/short-eu-render-bom.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/elements.css">
+  <link rel="stylesheet" href="assets/css/classes.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <a style="letter-spacing: .3rem;" href="#home">{Gabriel}</a>
+      </h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#home">Início</a></li>
+          <li><a href="#about">Sobre mim</a></li>
+          <li><a href="#tecnologies">Tecnologias</a></li>
+          <li><a href="#projects">Projetos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section id="home" class="home main-bg section">
+    <div class="main-content home-content">
+      <div class="home-text-content">
+        <h2 style="color: var(--beige-color);">Gabriel Bercelline</h2>
+        <p style="font-size: 2.5rem;">Bacharelado em sistemas de Informação e cursando pós WebDev pela faculdade Alfa</p>
+      </div>
+      <div class="home-img">
+        <img src="assets/img/homeImage.svg" alt="Logo de HTML, CSS e JS.">
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about white-bg section">
+    <div class="main-content about-content">
+      <div class="about-text-content">
+        <h2>Sobre mim</h2>
+        <p>Me chamo Gabriel, tenho 24 anos, e moro atualmente em Umuarana, Paraná.</p>
+        <p> Logo após sair do ensino médio comecei a cursar Sistemas de Informação na Unipar (2015), curso qual me graduei em 2018. Ainda não tenho experiência profissional na área. Durante a faculdade atuei como Estagiário na Unipar, após fui para a colchões Umaflex onde trabalhei com meu pai, que é diretor,  </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus autem animi, voluptatem possimus necessitatibus laboriosam beatae suscipit deserunt maiores ea, recusandae rem ullam, ad unde a tenetur odio quisquam consectetur!.</p>
+          <ul class="socials">
+              <li><a href="https://github.com/Grafaiel" target="_blank"><i class="fa fa-github"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/gabriel-rafaiel-bercelline-3a49b3154/" target="_blank"><i class="fa fa-linkedin" target="_blank"></i></a></li>
+          </ul>
+      </div>
+      <div class="about-img">
+        <img src="assets/img/eu-render-bom.png" alt="Foto do Gabriel Bercelline">
+      </div>
+    </div>
+  </section>
+
+  <section id="tecnologies" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading" style="color: var(--beige-color);">Tecnologias</h2>
+      <p class="grid-description">Como pretendo seguir com a carreira de desenvolvimento front-end, atualmente estou estudando as tecnologias base da área: </p>
+
+      <div class="grid">
+        <article>
+          <h3>HTML</h3>
+          <img src="assets/img/iconHTML.png" alt="HTML logo">
+          <p>Linguagem de marcação que nós usamos para estruturar e dar significado para o nosso conteúdo web. Por exemplo, definindo parágrafos, cabeçalhos, tabelas de conteúdo, ou inserindo imagens e vídeos na página.</p>
+        </article>
+        <article>
+          <h3>CSS</h3>
+          <img src="assets/img/iconCSS.png" alt="CSS logo">
+          <p>É uma linguagem de regras de estilo que nós usamos para aplicar estilo ao nosso conteúdo HTML. Por exemplo, definindo cores de fundo e fontes, e posicionando nosso conteúdo em múltiplas colunas.</p>
+        </article>
+        <article>
+          <h3>JavaScript</h3>
+          <img src="assets/img/iconJS.png" alt="JavaScript logo">
+          <p>É uma linguagem de programação que permite a você criar conteúdo que se atualiza dinamicamente, controlar múltimídias, imagens animadas, e tudo o mais que há de intessante. Ok, não tudo, mas é maravilhoso o que você pode efetuar com algumas linhas de código JavaScript.</p>
+        </article>
+      </div>
+      <p><a class="main-link" href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/What_is_JavaScript" target="_blank">Fonte: MDN Web Docs</a></p>
+    </div>
+
+  </section>
+
+  <section id="projects" class="grid-one white-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Projetos</h2>
+      <p class="grid-description">Aqui estão alguns pequenos projetos que fiz com o intuito de aprender/praticar:</p>
+
+      <div class="grid">
+        <div class="projects-img">
+          <a href="https://js-calculadora.netlify.app" target="_blank"><img src="assets/img/JSCalculatorIMC.png" alt="Foto Calculadora IMC, Clicável" /></a>
+        </div>
+        <div class="projects-img">
+          <a href="https://tcc-rwd.netlify.app" target="_blank"><img src="assets/img/JSCalculator.png" alt="Foto calculadora em JavaScript, Clicável" /></a>
+        </div>
+        <div class="projects-img">
+          <a href="http://35.199.75.131/" target="_blank"><img src="assets/img/livraria-local.png" alt="Foto projeto livraria-local, Clicável" /></a>
+        </div>
+        <div class="projects-img">
+          <a href="https://media-rest.netlify.app" target="_blank"><img src="assets/img/media.png" alt="Foto media-rest, Clicável" /></a>
+        </div>
+        <div class="projects-img">
+          <a href="https://tcc-rwd.netlify.app" target="_blank"><img src="assets/img/tcc-rwd.png" alt="Foto tcc-rwd, Clicável" /></a>
+        </div>
+        <div class="projects-img">
+          <a href="https://oimc.netlify.app" target="_blank"><img src="assets/img/exponenciacao-js.png" alt="Foto exponenciação, Clicável" /></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer id="footer" class="footer main-bg" >
+    <div class="footer-content">
+      <ul class="socials"  >
+          <li><a href="https://github.com/Grafaiel" class="fot" target="_blank"><i  class="fa fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/gabriel-rafaiel-bercelline-3a49b3154/" class="fot" target="_blank"><i class="fa fa-linkedin" target="_blank"></i></a></li>
+      </ul>
+      <p class="main-link">
+        <a href="https://linktr.ee/gabrielbercelline" target="_blank">Gabriel Bercelline</a>
+      </p>
+      <p class="main-link"> 
+        <a href="https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/#instructor-1" target="_blank">Curso: Luiz Otávio Miranda</a>
+      </p>
+  </div>
+  </footer>
+
+  <a class="back-to-top" href="#">➤</a>
+</body>
+</html>
