@@ -1,0 +1,42 @@
+.projects-img #f1 {
+    background-image: url("../img/JSCalculatorIMC.png");
+}
+.projects-img #f1:hover {
+    background-image: url("../img/JSCalculatorIMC.gif");
+}
+
+.projects-img #f2 {
+    background-image: url("../img/JSCalculator.png");
+}
+.projects-img #f2:hover {
+    background-image: url("../img/JSCalculator.gif");
+}
+
+.projects-img #f3 {
+    background-image: url("../img/livraria-local.png");
+}
+.projects-img #f3:hover {
+    background-image: url("../img/livraria-local.gif");
+}
+
+.projects-img #f4 {
+    background-image: url("../img/media.png");
+}
+.projects-img #f4:hover {
+    background-image: url("../img/media.gif");
+}
+
+.projects-img #f5 {
+    background-image: url("../img/tcc-rwd.png");
+}
+.projects-img #f5:hover {
+    background-image: url("../img/tcc-rwd.gif");
+}
+
+.projects-img #f6 {
+    background-image: url("../img/exponenciacao-js.png");
+}
+.projects-img #f6:hover {
+    background-image: url("../img/exponenciacao-js.gif");
+}
+  

@@ -60,9 +60,7 @@
   transition: all 300ms ease-in-out;
 }
 
-.projects-img img:hover {
-  transform: translate(-2%, 2%) scale(1.1) rotate(2deg);
-}
+
 
 .footer {
   text-align: center;
@@ -112,8 +110,14 @@
 
 .socials a{
   text-decoration: none;
+  color: var(--white-color);
+}
+
+.socials .dark-letter{
+  text-decoration: none;
   color: var(--primary-color);
 }
+
 .socials a i{
   font-size: 3rem;
   transition: color .4s ease;
