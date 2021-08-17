@@ -52,6 +52,10 @@ a {
   text-decoration: none;
 }
 
+i {
+  font-family: 'Open Sans', sans-serif;
+}
+
 p {
   margin-bottom: 3rem;
 }
