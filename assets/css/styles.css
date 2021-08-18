@@ -151,12 +151,16 @@
   box-shadow: 0 0 0.1rem 0.2rem var(--beige-color);
 }
 
-
-@media (max-width: 800px) {
+@media (max-width: 1182px ){
   .home-content, .about-content, .grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
+}
 
+@media (max-width: 800px ){
+  .home-content, .about-content, .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
   .projects-img {
     width: 100%;
     max-width: 100%;
@@ -164,7 +168,8 @@
   }
 
   .projects-img img {
-    width: 100%;
+    min-height: 100%;
+    max-width: 100%;
   }
 
   .grid-one-content {
@@ -248,5 +253,12 @@
 
   h6 {
     font-size: 2.8rem;
+  }
+}
+
+
+@media (max-width: 425px) {
+  .home-content, .about-content, .grid {
+    grid-template-columns: 1fr;
   }
 }
